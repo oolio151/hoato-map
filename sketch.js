@@ -52,7 +52,7 @@ function setup(){
 function draw(){
   background(bgimg)
   
-  if(mouseOver(forest)){
+  if(mousePressedOver(forest)){
     drawWords("Tinchester Forest",0,153,0)
   }
   else if(mousePressedOver(pearlen)){
