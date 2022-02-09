@@ -52,83 +52,86 @@ function setup(){
 function draw(){
   background(bgimg)
 
-  if(mousePressedOver(forest)){
+  if(mouseIsOver(forest)){
     drawWords("Tinchester Forest",0,153,0)
   }
-  else if(mousePressedOver(pearlen)){
+  else if(mouseIsOver(pearlen)){
     drawWords("Pearlen Town",128,255,255)
   }
-  else if (mousePressedOver(tinchester)){
+  else if (mouseIsOver(tinchester)){
     drawWords("Tinchester",204,230,255)
   }
-  else if (mousePressedOver(ironage)){
+  else if (mouseIsOver(ironage)){
     drawWords("Ironage Town",209,209,209)
   }
-  else if(mousePressedOver(bronzet)){
+  else if(mouseIsOver(bronzet)){
     drawWords("Bronzet Town",255,191,0)
   }
-  else if(mousePressedOver(portcity)){
+  else if(mouseIsOver(portcity)){
     drawWords("Pearlen Port",128,255,255)
   }
-  else if(mousePressedOver(diamondi)){
+  else if(mouseIsOver(diamondi)){
     drawWords("Diamondveil City",0,153,230)
   }
-  else if(mousePressedOver(drillbit)){
+  else if(mouseIsOver(drillbit)){
     drawWords("Drillbit City",179,83,0)
   }
-  else if(mousePressedOver(ruins)){
+  else if(mouseIsOver(ruins)){
     drawWords("Hoenntown Ruins",255,230,102)
   }
-  else if(mousePressedOver(silverston)){
+  else if(mouseIsOver(silverston)){
     drawWords("Silverston",230,255,255)
   }
-  else if(mousePressedOver(mountain)){
+  else if(mouseIsOver(mountain)){
     drawWords("Mount Steelin",255,64,25)
   }
-  else if (mousePressedOver(irontown)){
+  else if (mouseIsOver(irontown)){
     drawWords("Irontown",106,117,117)
   }
-  else if (mousePressedOver(safarizone)){
+  else if (mouseIsOver(safarizone)){
     drawWords("Marshlands",34,204,0)
   }
-  else if (mousePressedOver(goldheart)){
+  else if (mouseIsOver(goldheart)){
     drawWords("Goldheart City",255,255,128)
   }
-  else if (mousePressedOver(pillar)){
+  else if (mouseIsOver(pillar)){
     drawWords("Sword Pillar",106,117,117)
   }
-  else if (mousePressedOver(lakefront)){
+  else if (mouseIsOver(lakefront)){
     drawWords("Baltoy Lakefront",255,191,0)
   }
-  else if (mousePressedOver(emeraldite)){
+  else if (mouseIsOver(emeraldite)){
     drawWords("Emeraldite Town",0,204,0)
   }
-  else if (mousePressedOver(desert)){
+  else if (mouseIsOver(desert)){
     drawWords("Grand Desert",255,255,179)
   }
-  else if (mousePressedOver(frontier)){
+  else if (mouseIsOver(frontier)){
     drawWords("Battle Frontier",204,102,255)
   }
-  else if (mousePressedOver(tower)){
+  else if (mouseIsOver(tower)){
     drawWords("Spike Tower",230,242,255)
   }
-  else if (mousePressedOver(victoryroad)){
+  else if (mouseIsOver(victoryroad)){
     drawWords("Victory Road",255,191,0)
   }
-  else if (mousePressedOver(league)){
+  else if (mouseIsOver(league)){
     drawWords("Hoato Conference",255,191,0)
   }
-  else if (mousePressedOver(west_island)){
+  else if (mouseIsOver(west_island)){
     drawWords("Western Island",0,255,0)
   }
-  else if (mousePressedOver(east_island)){
+  else if (mouseIsOver(east_island)){
     drawWords("Eastern Island",0,255,0)
   }
-  else if (mousePressedOver(emeraldite_island)){
+  else if (mouseIsOver(emeraldite_island)){
     drawWords("Emeraldite Island",0,255,0)
   }
-  else if (mousePressedOver(strait)){
+  else if (mouseIsOver(strait)){
     drawWords("Hoato Strait",51,187,255)
+  }
+  else{
+    drawWords("Hoato Seas",0,100,255)
   }
   //drawSprites();
 }
