@@ -51,11 +51,10 @@ function setup(){
 
 function draw(){
   background(bgimg)
-
-  forest.mouseOver(drawWords("Tinchester Forest",0,153,0))
-  /*if(mouseOver(forest)){
+  
+  if(mouseOver(forest)){
     drawWords("Tinchester Forest",0,153,0)
-  }*/
+  }
   if(mousePressedOver(pearlen)){
     drawWords("Pearlen Town",128,255,255)
   }
