@@ -51,7 +51,9 @@ function setup(){
 
 function draw(){
   background(bgimg)
-
+  if(forest.mouseIsOver=true){
+    drawWords("Tinchester Forest",0,153,0)
+  }
   if(mousePressedOver(forest)){
     drawWords("Tinchester Forest",0,153,0)
   }
