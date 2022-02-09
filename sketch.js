@@ -55,7 +55,7 @@ function draw(){
   if(mouseOver(forest)){
     drawWords("Tinchester Forest",0,153,0)
   }
-  if(mousePressedOver(pearlen)){
+  else if(mousePressedOver(pearlen)){
     drawWords("Pearlen Town",128,255,255)
   }
   else if (mousePressedOver(tinchester)){
